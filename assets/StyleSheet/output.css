@@ -182,21 +182,6 @@
   .bottom-10\/100 {
     bottom: calc(10 / 100 * 100%);
   }
-  .bottom-50 {
-    bottom: calc(var(--spacing) * 50);
-  }
-  .bottom-50\/100 {
-    bottom: calc(50 / 100 * 100%);
-  }
-  .left-0 {
-    left: 0px;
-  }
-  .left-10 {
-    left: calc(var(--spacing) * 10);
-  }
-  .left-10\/100 {
-    left: calc(10 / 100 * 100%);
-  }
   .left-50 {
     left: calc(var(--spacing) * 50);
   }
@@ -242,14 +227,8 @@
   .h-10 {
     height: calc(var(--spacing) * 10);
   }
-  .h-\[2000\] {
-    height: 2000;
-  }
   .h-\[2000vh\] {
     height: 2000vh;
-  }
-  .h-\[20000vh\] {
-    height: 20000vh;
   }
   .h-full {
     height: 100%;
@@ -262,9 +241,6 @@
   }
   .w-1\/2 {
     width: calc(1 / 2 * 100%);
-  }
-  .w-10 {
-    width: calc(var(--spacing) * 10);
   }
   .w-80 {
     width: calc(var(--spacing) * 80);
@@ -284,14 +260,6 @@
   }
   .-translate-x-1\/2 {
     --tw-translate-x: calc(calc(1 / 2 * 100%) * -1);
-    translate: var(--tw-translate-x) var(--tw-translate-y);
-  }
-  .translate-x-1 {
-    --tw-translate-x: var(--spacing);
-    translate: var(--tw-translate-x) var(--tw-translate-y);
-  }
-  .translate-x-1\/2 {
-    --tw-translate-x: calc(1 / 2 * 100%);
     translate: var(--tw-translate-x) var(--tw-translate-y);
   }
   .resize {
@@ -318,28 +286,12 @@
   .gap-2\.5 {
     gap: calc(var(--spacing) * 2.5);
   }
-  .rounded-2xl {
-    border-radius: var(--radius-2xl);
-  }
   .rounded-lg {
     border-radius: var(--radius-lg);
-  }
-  .rounded-xl {
-    border-radius: var(--radius-xl);
   }
   .border {
     border-style: var(--tw-border-style);
     border-width: 1px;
-  }
-  .border-2 {
-    border-style: var(--tw-border-style);
-    border-width: 2px;
-  }
-  .border-red-500 {
-    border-color: var(--color-red-500);
-  }
-  .bg-\[\#494d4f\] {
-    background-color: #494d4f;
   }
   .bg-\[\#494d4fa8\] {
     background-color: #494d4fa8;
@@ -353,12 +305,6 @@
   .px-12 {
     padding-inline: calc(var(--spacing) * 12);
   }
-  .py-2 {
-    padding-block: calc(var(--spacing) * 2);
-  }
-  .py-2\.5 {
-    padding-block: calc(var(--spacing) * 2.5);
-  }
   .py-3 {
     padding-block: calc(var(--spacing) * 3);
   }
@@ -368,45 +314,17 @@
   .py-5 {
     padding-block: calc(var(--spacing) * 5);
   }
+  .pl-20 {
+    padding-left: calc(var(--spacing) * 20);
+  }
   .text-center {
     text-align: center;
   }
   .text-\[21px\] {
     font-size: 21px;
   }
-  .text-\[32px\] {
-    font-size: 32px;
-  }
   .text-\[38px\] {
     font-size: 38px;
-  }
-  .leading-10 {
-    --tw-leading: calc(var(--spacing) * 10);
-    line-height: calc(var(--spacing) * 10);
-  }
-  .leading-12 {
-    --tw-leading: calc(var(--spacing) * 12);
-    line-height: calc(var(--spacing) * 12);
-  }
-  .leading-16 {
-    --tw-leading: calc(var(--spacing) * 16);
-    line-height: calc(var(--spacing) * 16);
-  }
-  .leading-20 {
-    --tw-leading: calc(var(--spacing) * 20);
-    line-height: calc(var(--spacing) * 20);
-  }
-  .text-wrap {
-    text-wrap: wrap;
-  }
-  .wrap-break-word {
-    overflow-wrap: break-word;
-  }
-  .text-\[px\] {
-    color: px;
-  }
-  .text-white {
-    color: var(--color-white);
   }
   .capitalize {
     text-transform: capitalize;
@@ -435,35 +353,8 @@
     color: var(--color-white);
   }
   @media (hover: hover) {
-    .hover\:bg-\[\#000\]:hover {
-      background-color: #000;
-    }
-    .hover\:bg-\[\#1d1d1e48\]:hover {
-      background-color: #1d1d1e48;
-    }
-    .hover\:bg-\[\#1d1d1e60\]:hover {
-      background-color: #1d1d1e60;
-    }
-    .hover\:bg-\[\#1d1d1e86\]:hover {
-      background-color: #1d1d1e86;
-    }
-    .hover\:bg-\[\#1d1d1e\]:hover {
-      background-color: #1d1d1e;
-    }
     .hover\:bg-\[\#0000003f\]:hover {
       background-color: #0000003f;
-    }
-    .hover\:bg-\[\#fff\]:hover {
-      background-color: #fff;
-    }
-    .hover\:bg-\[\#ffffff2a\]:hover {
-      background-color: #ffffff2a;
-    }
-    .hover\:bg-\[\#ffffff6b\]:hover {
-      background-color: #ffffff6b;
-    }
-    .hover\:bg-\[\#ffffffad\]:hover {
-      background-color: #ffffffad;
     }
   }
   @media (width >= 48rem) {
@@ -482,46 +373,16 @@
     .md\:w-fit {
       width: fit-content;
     }
-    .md\:gap-10 {
-      gap: calc(var(--spacing) * 10);
-    }
-    .md\:text-\[43px\] {
-      font-size: 43px;
-    }
     .md\:text-\[48px\] {
       font-size: 48px;
     }
-    .md\:text-\[px\] {
-      color: px;
-    }
   }
   @media (width >= 64rem) {
-    .lg\:w-10\/100 {
-      width: calc(10 / 100 * 100%);
-    }
-    .lg\:w-20\/100 {
-      width: calc(20 / 100 * 100%);
-    }
-    .lg\:w-30\/100 {
-      width: calc(30 / 100 * 100%);
-    }
-    .lg\:w-35\/100 {
-      width: calc(35 / 100 * 100%);
-    }
     .lg\:w-40\/100 {
       width: calc(40 / 100 * 100%);
     }
     .lg\:max-w-63\.75 {
       max-width: calc(var(--spacing) * 63.75);
-    }
-    .lg\:max-w-\[205px\] {
-      max-width: 205px;
-    }
-    .lg\:max-w-\[255px\] {
-      max-width: 255px;
-    }
-    .lg\:gap-5 {
-      gap: calc(var(--spacing) * 5);
     }
     .lg\:gap-10 {
       gap: calc(var(--spacing) * 10);
@@ -529,26 +390,8 @@
     .lg\:px-20 {
       padding-inline: calc(var(--spacing) * 20);
     }
-    .lg\:text-\[60px\] {
-      font-size: 60px;
-    }
-    .lg\:text-\[68px\] {
-      font-size: 68px;
-    }
-    .lg\:text-\[80px\] {
-      font-size: 80px;
-    }
-    .lg\:text-\[px\] {
-      color: px;
-    }
   }
   @media (width >= 80rem) {
-    .xl\:w-30 {
-      width: calc(var(--spacing) * 30);
-    }
-    .xl\:w-30\/100 {
-      width: calc(30 / 100 * 100%);
-    }
     .xl\:w-40\/100 {
       width: calc(40 / 100 * 100%);
     }
@@ -557,15 +400,6 @@
     }
     .xl\:max-w-87\.5 {
       max-width: calc(var(--spacing) * 87.5);
-    }
-    .xl\:max-w-\[300px\] {
-      max-width: 300px;
-    }
-    .xl\:max-w-\[350px\] {
-      max-width: 350px;
-    }
-    .xl\:gap-10 {
-      gap: calc(var(--spacing) * 10);
     }
     .xl\:text-\[80px\] {
       font-size: 80px;
@@ -604,6 +438,9 @@
         max-width: 96rem;
       }
     }
+    .\32 xl\:pl-20 {
+      padding-left: calc(var(--spacing) * 20);
+    }
   }
 }
 .mask1::before {
@@ -633,16 +470,16 @@
   inherits: false;
   initial-value: solid;
 }
-@property --tw-leading {
-  syntax: "*";
-  inherits: false;
-}
 @property --tw-outline-style {
   syntax: "*";
   inherits: false;
   initial-value: solid;
 }
 @property --tw-duration {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-leading {
   syntax: "*";
   inherits: false;
 }
@@ -653,9 +490,9 @@
       --tw-translate-y: 0;
       --tw-translate-z: 0;
       --tw-border-style: solid;
-      --tw-leading: initial;
       --tw-outline-style: solid;
       --tw-duration: initial;
+      --tw-leading: initial;
     }
   }
 }
