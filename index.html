@@ -12,11 +12,11 @@
     <!-- npx @tailwindcss/cli -i ./assets/StyleSheet/master.css -o ./assets/StyleSheet/output.css --watch -->
 </head>
 
-<body>
+<body class="h-[2000vh]">
 
     <!--==================#1 HEADER HTML ==================-->
     <!--==================================================-->
-    <header class="w-full flex justify-center ">
+    <header class="w-full flex justify-center absolute top-0">
 
         <!-- container -->
         <section class="w-full flex justify-between 2xl:container relative mask1 z-2 *:w-1/2 *:flex *:items-center px-12 lg:px-20 py-5 *:text-white">
@@ -53,7 +53,24 @@
 
     <!--==================#2 CONTENT HTML ==================-->
     <!--==================================================-->
+    <main class="w-full flex justify-center">
 
+        <!--==================#2-1 HERO HTML ==================-->
+        <section class="w-full h-screen relative">
+            <video autoplay muted loop class="w-full h-full object-cover" src="assets/Images/Hero.mp4"></video>
+
+
+
+            <div class="w-80/100 flex flex-wrap gap-2.5 lg:gap-10 *:text-white absolute bottom-10/100 left-50/100 -translate-x-1/2">
+                <a class="w-full capitalize text-[38px] md:text-[48px] xl:text-[80px] lg:w-40/100 lg:max-w-63.75 xl:w-40/100 xl:max-w-87.5 xl:leading-20" href="">cayenne turbo GT.</a>
+                <div class="w-full">
+                    <a class="w-full flex items-center justify-center text-center capitalize bg-[#494d4fa8] px-6 py-3.5 rounded-lg md:w-fit hover:bg-[#0000003f] duration-300" href="">discover more</a>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
 
 </body>
 
