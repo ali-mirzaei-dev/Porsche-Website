@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Porsche</title>
+
     <link rel="stylesheet" href="assets/StyleSheet/output.css">
     <link rel="stylesheet" href="assets/Font/Icons1/style.css">
 
@@ -16,7 +17,7 @@
 
     <!--==================#1 HEADER HTML ==================-->
     <!--==================================================-->
-    <header class="w-full flex justify-center absolute top-0">
+    <header class="parent absolute top-0">
 
         <!-- container -->
         <section class="w-full flex justify-between 2xl:container relative mask1 z-2 *:w-1/2 *:flex *:items-center px-12 lg:px-20 py-5 *:text-white">
@@ -53,7 +54,7 @@
 
     <!--==================#2 CONTENT HTML ==================-->
     <!--==================================================-->
-    <main class="w-full flex justify-center">
+    <main class="parent flex-wrap">
 
         <!--==================#2-1 HERO HTML ==================-->
         <section class="w-full h-screen relative">
@@ -69,8 +70,42 @@
             </div>
         </section>
 
-        
-
+        <!--==================#2-2 TRIO HTML ==================-->
+        <section class="parent gap-5 flex-wrap mt-20">
+            <div class="card1">
+                <a href="">
+                    <figure class="w-full h-full">
+                        <img class="w-full h-full object-cover rounded-2xl" src="assets/Images/panamera.webp" alt="">
+                        <figcaption class="parent justify-between! px-2.5 py-3 *:text-white absolute bottom-0 mask2 z-2">
+                            <h6 class="capitalize text-[18px] ">panamera 4.</h6>
+                            <i class="p-2 rounded-full bg-[#4c4a48] icon"></i>
+                        </figcaption>
+                    </figure>
+                </a>
+            </div>
+            <div class="card1">
+                <a href="">
+                    <figure class="w-full h-full">
+                        <img class="w-full h-full object-cover rounded-2xl" src="assets/Images/macan electric.webp" alt="">
+                        <figcaption class="parent justify-between! px-2.5 py-3 *:text-white absolute bottom-0 mask2 z-2">
+                            <h6 class="capitalize text-[18px] ">macan electric.</h6>
+                            <i class="p-2 rounded-full bg-[#4c4a48] icon"></i>
+                        </figcaption>
+                    </figure>
+                </a>
+            </div>
+            <div class="card1">
+                <a href="">
+                    <figure class="w-full h-full">
+                        <img class="w-full h-full object-cover rounded-2xl" src="assets/Images/911 carrera.webp" alt="">
+                        <figcaption class="parent justify-between! px-2.5 py-3 *:text-white absolute bottom-0 mask2 z-2">
+                            <h6 class="capitalize text-[18px] ">911 carrera s with MT package.</h6>
+                            <i class="p-2 rounded-full bg-[#4c4a48] icon"></i>
+                        </figcaption>
+                    </figure>
+                </a>
+            </div>
+        </section>
     </main>
 
 </body>
