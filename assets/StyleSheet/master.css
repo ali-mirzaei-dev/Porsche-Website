@@ -10,7 +10,7 @@
         @apply w-full flex justify-center content-start 2xl:container flex-wrap
     }
 
-    @media (min-width:2200px) {
+    @media (min-width:2000px) {
         .divcontain {
             @apply container
         }
