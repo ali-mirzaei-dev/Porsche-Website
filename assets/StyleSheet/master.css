@@ -10,12 +10,18 @@
         @apply w-full flex justify-center content-start 2xl:container flex-wrap
     }
 
+    @media (min-width:2200px) {
+        .divcontain {
+            @apply container
+        }
+    }
+
     .card1 {
         @apply w-80/100 relative h-75 md:w-60/100 lg:w-20/100 lg:h-41.25 xl:h-60
     }
 
     .card2 {
-        @apply w-80/100 relative 
+        @apply w-80/100 relative
     }
 
 }
